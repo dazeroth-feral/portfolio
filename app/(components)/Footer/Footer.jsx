@@ -1,3 +1,4 @@
+// :D
 'use client';
 
 import cssStyle from "./Footer.module.css";
