@@ -1,0 +1,46 @@
+.content{
+    background-color: #1F232E;
+
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .siteName{
+        color: #FFF;
+        text-decoration: none;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+
+        transition: color 0.2s;
+    }
+    .siteName:hover{
+        color: #18A4E3;
+    }
+
+    .navMenu{
+        display: flex;
+        flex-direction: row;
+        gap: 48px;
+    }
+        .navMenu > a{
+            color: #FFF;
+            text-decoration: none;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+
+            transition: color 0.2s;
+
+        }
+        .navMenu > a:hover{
+            color: #18A4E3;
+        }

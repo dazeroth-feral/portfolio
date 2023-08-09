@@ -1,0 +1,22 @@
+.content{
+    background-color: #1F232E;
+
+    height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .licenseSavedText{
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .toTopButton{
+        transition: color 0.2s;
+    }
