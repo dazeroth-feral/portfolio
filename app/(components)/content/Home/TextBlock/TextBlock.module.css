@@ -1,0 +1,29 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+    .greeting{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .whoMe{
+        color: #18A4E3;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    .soLitleInfoForMe{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 177.778% */
+    }

@@ -1,3 +1,5 @@
+import cssStyle from "./(baseCss)/INDEX.module.css";
+
 import Home from "./(components)/content/Home/Home";
 
 import { getPersonalInformation } from "./(server)/apiRecipient/getPersonalInformation";
@@ -19,6 +21,8 @@ export default async function Index({}) {
   };
 
   return (
-    <Home dataPack={dataPack} />
+    <div className={cssStyle.content}>
+      <Home dataPack={dataPack} />
+    </div>
   );
 };

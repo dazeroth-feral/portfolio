@@ -1,0 +1,28 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+}
+    .letsTalk{
+        padding: 17px 42px 18px 43px;
+
+        color: #18A4E3;
+        background-color: #1F232E;
+
+        border: 2px solid #18A4E3;
+        border-radius: 10px;
+
+        color: #18A4E3;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        transition: color 0.3s, background-color 0.3s;
+    }
+    .letsTalk:hover{
+        color: #1F232E;
+        background-color: #18A4E3;
+    }

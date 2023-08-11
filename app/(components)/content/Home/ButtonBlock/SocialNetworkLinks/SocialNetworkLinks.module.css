@@ -1,59 +1,64 @@
-.gitHubLinkSvgContainer{
-    transition: fill 0.3s ease, stroke 0.3 ease;
+.content{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
 }
-    .gitHubLinkSvgCircle{
-        fill: #1F232E;
-        stroke: #18A4E3;
-        transition: fill 0.3s ease;
-    }
-    .gitHubLinkSvgCircle.hovered{
-        fill: #18A4E3;
-    }
-    .gitHubLinkSvgIco{
-        fill: #1F232E;
-        stroke: #18A4E3;
-        transition: fill 0.3s ease, stroke 0.3s ease;
-    }
-    .gitHubLinkSvgIco.hovered{
-        fill: #18A4E3;
-        stroke: #1F232E;
-    }
+  .gitHubLinkSvgContainer{
+      transition: fill 0.3s ease, stroke 0.3 ease;
+  }
+      .gitHubLinkSvgCircle{
+          fill: #1F232E;
+          stroke: #18A4E3;
+          transition: fill 0.3s ease;
+      }
+      .gitHubLinkSvgCircle.hovered{
+          fill: #18A4E3;
+      }
+      .gitHubLinkSvgIco{
+          fill: #1F232E;
+          stroke: #18A4E3;
+          transition: fill 0.3s ease, stroke 0.3s ease;
+      }
+      .gitHubLinkSvgIco.hovered{
+          fill: #18A4E3;
+          stroke: #1F232E;
+      }
 
-.telegramLinkSvgContainer {
-    transition: fill 0.3s ease;
-}
-      .telegramLinkSvgCircle {
-        fill: #1F232E;
-        stroke: #18A4E3;
-        transition: fill 0.3s ease;
-      }
-      .telegramLinkSvgCircle.hovered {
-        fill: #18A4E3;
-      }
-      .telegramLinkSvgIco {
-        fill: #18A4E3;
-        transition: fill 0.3s ease;
-      }
-      .telegramLinkSvgIco.hovered {
-        fill: #1F232E;
-      }
-      
+  .telegramLinkSvgContainer {
+      transition: fill 0.3s ease;
+  }
+        .telegramLinkSvgCircle {
+          fill: #1F232E;
+          stroke: #18A4E3;
+          transition: fill 0.3s ease;
+        }
+        .telegramLinkSvgCircle.hovered {
+          fill: #18A4E3;
+        }
+        .telegramLinkSvgIco {
+          fill: #18A4E3;
+          transition: fill 0.3s ease;
+        }
+        .telegramLinkSvgIco.hovered {
+          fill: #1F232E;
+        }
+        
 
-.tikTokLinkSvgContainer{
-  fill: none;
-}
-  .tikTokLinkSvgCircle{
-    fill: #1F232E; 
-    stroke: #18A4E3;
-    transition: fill 0.3s ease;
+  .tikTokLinkSvgContainer{
+    fill: none;
   }
-  .tikTokLinkSvgCircle.hovered{
-    fill: #18A4E3; 
-  }
-  .tikTokLinkSvgIco{
-    fill: #18A4E3;
-    transition: fill 0.3s ease;
-  }
-  .tikTokLinkSvgIco.hovered{
-    fill: #1F232E; 
-  }
+    .tikTokLinkSvgCircle{
+      fill: #1F232E; 
+      stroke: #18A4E3;
+      transition: fill 0.3s ease;
+    }
+    .tikTokLinkSvgCircle.hovered{
+      fill: #18A4E3; 
+    }
+    .tikTokLinkSvgIco{
+      fill: #18A4E3;
+      transition: fill 0.3s ease;
+    }
+    .tikTokLinkSvgIco.hovered{
+      fill: #1F232E; 
+    }

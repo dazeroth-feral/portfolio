@@ -19,7 +19,7 @@ export default function SocialNetworkLinks({ socialNetworkLinks }) {
     }
 
     return (
-        <div className={cssStyle.socialNetwork}>
+        <div className={cssStyle.content}>
             <Link href={gitHubLink} target="_blank">
                 <svg
                     onMouseOver={() => setGitHubButtonHover(true)}

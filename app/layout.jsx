@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
+      <head>
+        <link rel="shortcut icon" href="/ico/siteIco.svg" type="image/x-icon" />
+      </head>
       <body>
         <Header />
         <main>{children}</main>
