@@ -1,9 +1,24 @@
-import cssStyle from "./Home.module.css";
+import Home from "./(components)/content/Home/Home";
 
-export default function Home() {
-  return (<div>
-    <div id="home" className={cssStyle.Home}>
-      home
-    </div>
-  </div>)
-}
+import { getPersonalInformation } from "./(server)/apiRecipient/getPersonalInformation";
+import { getSocialNetworkLinks } from "./(server)/apiRecipient/getSocialNetworkLinks";
+import { getSkills } from "./(server)/apiRecipient/getSkills";
+import { getPortfolioList } from "./(server)/apiRecipient/getPortfolioList";
+
+export default async function Index({}) {
+  const personalInformation = await getPersonalInformation();
+  const socialNetworkLinks = await getSocialNetworkLinks();
+  const skills = await getSkills();
+  const portfolioList = await getPortfolioList();
+
+  const dataPack = {
+    personalInformation,
+    socialNetworkLinks,
+    skills,
+    portfolioList
+  };
+
+  return (
+    <Home dataPack={dataPack} />
+  );
+};
