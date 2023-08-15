@@ -1,0 +1,15 @@
+.content{
+    max-width: 679px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+    .middleAboutMeInformation{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }

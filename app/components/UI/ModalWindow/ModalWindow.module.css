@@ -1,0 +1,33 @@
+.content{
+    height: 100vh;
+    width: 100vw;
+
+    background-color: rgba(0, 0, 0, 0.4);
+
+    position: fixed;
+
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent{
+    padding: 8px 12px;
+    margin: 16px;
+
+    border-radius: 10px;
+    border: solid 2px #18A4E3;
+
+    background-color: #1F232E;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1F232E;
+
+    font-family: Inter;
+    font-size: 18px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+/* Text Standart Styles */
+
+.componentH1{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.componentH2{
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.componentP{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Text Colors */
+
+.BLUE{
+    color: #18A4E3;
+}

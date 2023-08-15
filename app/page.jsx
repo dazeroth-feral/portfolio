@@ -1,11 +1,13 @@
-import cssStyle from "./(baseCss)/INDEX.module.css";
+import cssStyle from "./baseCss/INDEX.module.css";
 
-import Home from "./(components)/content/Home/Home";
+import Home from "./components/content/Home/Home";
 
 import { getPersonalInformation } from "./(server)/apiRecipient/getPersonalInformation";
 import { getSocialNetworkLinks } from "./(server)/apiRecipient/getSocialNetworkLinks";
 import { getSkills } from "./(server)/apiRecipient/getSkills";
 import { getPortfolioList } from "./(server)/apiRecipient/getPortfolioList";
+import About from "./components/content/About/About";
+import Skills from "./components/content/Skills/Skills";
 
 export default async function Index({}) {
   const personalInformation = await getPersonalInformation();
@@ -23,6 +25,8 @@ export default async function Index({}) {
   return (
     <div className={cssStyle.content}>
       <Home dataPack={dataPack} />
+      <About dataPack={dataPack} />
+      <Skills skills={skills} />
     </div>
   );
 };

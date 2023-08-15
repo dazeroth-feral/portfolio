@@ -14,13 +14,15 @@ export default function Home({ personalInformation }) {
 
     return (
         <div className={cssStyle.content}>
-            <div className={cssStyle.greeting}>
+            <div className="componentH1">
                 Hi, I'm {personalInformation.EN_firstName} “{personalInformation.nickName}”
             </div>
-            <div className={cssStyle.whoMe}>
-                {personalInformation.whoMe}
+            <div className="componentH2">
+                <span className="BLUE">
+                    {personalInformation.whoMe}
+                </span>
             </div>
-            <div className={cssStyle.soLitleInfoForMe}>
+            <div className="componentP">
                 {smallDescriptionArray.map((element, index) => (
                     <div key={index}>
                         {element}

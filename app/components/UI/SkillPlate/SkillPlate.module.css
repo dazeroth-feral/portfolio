@@ -1,0 +1,35 @@
+.content{
+    background-color: #1F232E;
+    border: 2px solid #18A4E3;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+        .topBlock{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .bottomBlock{
+
+        }
+            .procentContainer{
+                border-radius: 10px;
+                border: 2px solid #18A4E3;
+                background: #1F232E;
+                padding: 4px 8px;
+            }
+                .procentBar{
+                    height: 12px;
+                    border-radius: 4px;
+                    background: #18A4E3;
+                }

@@ -1,0 +1,8 @@
+.content{
+    /* мінімальний розмір вмісту сторінки */
+    /* min-height: calc(100dvh - 160px); */
+    scroll-snap-type: y mandatory;
+}
+    .content > div{
+        scroll-snap-align: start;
+    }
