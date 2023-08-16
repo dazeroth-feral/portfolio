@@ -1,6 +1,8 @@
 .content{
     padding: 12px 38px 13px 38px;
 
+    width: max-content;
+
     color: #18A4E3;
     background-color: #1F232E;
 

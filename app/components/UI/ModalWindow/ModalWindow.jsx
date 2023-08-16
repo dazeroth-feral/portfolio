@@ -3,7 +3,7 @@
 import Button from "../Button/Button";
 import cssStyle from "./ModalWindow.module.css";
 
-const ModalWindow = ({ children, isActive, doClose }) => {
+const ModalWindow = ({ children, isActive, doClose, navLink = "#" }) => {
     if(!isActive) return null;
 
     return (
@@ -18,13 +18,27 @@ const ModalWindow = ({ children, isActive, doClose }) => {
                 <div className={cssStyle.mainContent}>
                     {children}    
                 </div>
-                <div className={cssStyle.doCloseModal}>
-                    <Button
-                        callbackOnClick={doClose}
-                    >
-                        Close
-                    </Button>
-                </div>
+                {navLink != "#"
+                    ?   <div className={cssStyle.doModal}>
+                            <Button
+                                callbackOnClick={doClose}
+                            >
+                                Close
+                            </Button>
+                            <Button 
+                                callbackOnClick={() => window.open(navLink, "_blank")}
+                            >
+                                Go to Site
+                            </Button>
+                        </div>
+                    :    <div className={cssStyle.doCloseModal}>
+                            <Button
+                                callbackOnClick={doClose}
+                            >
+                                Close
+                            </Button>
+                        </div>                         
+                }
             </div>
         </div>
     );

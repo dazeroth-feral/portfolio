@@ -8,6 +8,7 @@ import { getSkills } from "./(server)/apiRecipient/getSkills";
 import { getPortfolioList } from "./(server)/apiRecipient/getPortfolioList";
 import About from "./components/content/About/About";
 import Skills from "./components/content/Skills/Skills";
+import Portfolio from "./components/content/Portfolio/Portfolio";
 
 export default async function Index({}) {
   const personalInformation = await getPersonalInformation();
@@ -27,6 +28,7 @@ export default async function Index({}) {
       <Home dataPack={dataPack} />
       <About dataPack={dataPack} />
       <Skills skills={skills} />
+      <Portfolio portfolioList={portfolioList} />
     </div>
   );
 };

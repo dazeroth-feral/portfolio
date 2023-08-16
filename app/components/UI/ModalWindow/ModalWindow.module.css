@@ -30,4 +30,14 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    
+    z-index: 999;
 }
+    .doCloseModal{
+        align-self: center;
+    }
+    .doModal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }

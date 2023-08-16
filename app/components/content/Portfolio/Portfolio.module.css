@@ -1,0 +1,12 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    min-height: calc(100dvh - 80px);
+}
+        .blockOfElements{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 16px 6.974%;
+        }

@@ -34,6 +34,20 @@ body{
     font-weight: 900;
     line-height: normal;
 }
+.componentH3{
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.componentH4{
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 .componentP{
     font-family: Inter;
     font-size: 16px;
@@ -46,4 +60,16 @@ body{
 
 .BLUE{
     color: #18A4E3;
+}
+.DARKPURPLE{
+    color: #6241A7;
+}
+
+/* Positions */
+
+.text-align-center{
+    text-align: center;
+}
+.align-self-center{
+    align-self: center;
 }

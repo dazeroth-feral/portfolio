@@ -42,7 +42,7 @@ const Skills = ({ skills }) => {
             </div>
             <div className={cssStyle.skillsContainer}>
                 {arrayOfElements.map((element, index) => (
-                    <div className={cssStyle.blockContainer}>
+                    <div key={index} className={cssStyle.blockContainer}>
                         <div className={cssStyle.blockName}>{blockName[index]}</div>
                         <SkillPlate key={index} arrayOfElements={element} />
                     </div>
