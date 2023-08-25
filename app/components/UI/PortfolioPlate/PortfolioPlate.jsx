@@ -29,17 +29,25 @@ const PortfolioPlate = ({ element }) => {
             />
             <div className="componentH4 align-self-center">{element.name}</div>
 
-            <img
+            <div
                 className={
-                    elementHovered
+                    `${
+                        elementHovered
                         ? [cssStyle.hoverImage, cssStyle.hovered].join(" ")
                         : cssStyle.hoverImage
+                    } componentH1 flex column gap-10  `
                 }
                 onClick={modalOpen}
                 onMouseOver={() => setElementHovered(true)}
                 onMouseLeave={() => setElementHovered(false)}
-                src="/img/portfolioImageHovered.svg" alt="hover"
-            />
+            >
+                    <div>
+                        Click <div className="BLUE">Me</div>    
+                    </div>
+                    <div>
+                        For <div className="BLUE">More</div> Information
+                    </div>
+            </div>
 
             <ModalWindow
                 doClose={modalClose} isActive={modalActive}

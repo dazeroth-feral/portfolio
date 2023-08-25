@@ -4,8 +4,8 @@
     gap: 12px;
 }
     .image{
-        width: 432px;
-        height: 243px;
+        width: calc(100dvw / 4);
+        height: calc(100dvh / 4);
         border: 2px solid #18A4E3;;
         border-radius: 4px;
     }
@@ -24,8 +24,12 @@
         gap: 4px;
     }
     .hoverImage{
-        width: 436px;
-        height: 247px;
+        width: calc(100dvw / 4);
+        height: calc(100dvh / 4);
+
+        background-color: rgba(0, 0, 0, 0.7);
+        border-radius: 4px;
+        border: 2px solid #18A4E3;;
 
         position: absolute;
 

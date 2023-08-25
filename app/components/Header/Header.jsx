@@ -17,7 +17,7 @@ export default function Header() {
                 <a>About</a>
                 <a>Skills</a>
                 <a>Portfolio</a>
-                <a>Contacts</a>
+                <a>Contact</a>
             </div>
         </header>
     )

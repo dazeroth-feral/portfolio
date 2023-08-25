@@ -12,49 +12,302 @@ body{
 
     display: flex;
     flex-direction: column;
-
-    max-width: 1520px;
-    margin: 0 auto;
-    padding: 0 32px;
 }
 
-/* Text Standart Styles */
+/* Media Requests */
+    /* Mobile */
+        @media screen and (max-width: 480px){
+            body{
+                max-width: 480px;
+                margin: 0 auto;
+                padding: 0 4px;
+            }
+            
+            /* Text Standart Styles */
 
-.componentH1{
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-}
-.componentH2{
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-}
-.componentH3{
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.componentH4{
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.componentP{
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
+            .componentH1{
+                font-family: Inter;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH2{
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH3{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentH4{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentP{
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    /* Tablet */
+        @media screen and (min-width: 481px) and (max-width: 768px){
+            body{
+                max-width: 768px;
+                margin: 0 auto;
+                padding: 0 16px;
+            }
+            
+            /* Text Standart Styles */
+
+            .componentH1{
+                font-family: Inter;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH2{
+                font-family: Inter;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH3{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentH4{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentP{
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    /* Desktop */
+        @media screen and (min-width: 769px) and (max-width: 1024px){
+            body{
+                max-width: 1024px;
+                margin: 0 auto;
+                padding: 0 32px;
+            }
+            
+            /* Text Standart Styles */
+
+            .componentH1{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH2{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH3{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentH4{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentP{
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    /* Large Desktop */
+        @media screen and (min-width: 1025px) and (max-width: 1200px){
+            body{
+                max-width: 1024px;
+                margin: 0 auto;
+                padding: 0 32px;
+            }
+            
+            /* Text Standart Styles */
+
+            .componentH1{
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH2{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH3{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentH4{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentP{
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    /* Extra Large Desktop */
+        @media screen and (min-width: 1201px) and (max-width: 1920px) {
+            body{
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 64px;
+            }
+                        
+            /* Text Standart Styles */
+
+            .componentH1{
+                font-family: Inter;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH2{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH3{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentH4{
+                font-family: Inter;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentP{
+                font-family: Inter;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    /* > 1920px */
+        @media screen and (min-width: 1921px){
+            body{
+                max-width: 1440px;
+                margin: 0 auto;
+                padding: 0 64px;
+            }
+            
+            /* Text Standart Styles */
+
+            .componentH1{
+                font-family: Inter;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH2{
+                font-family: Inter;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+            }
+            .componentH3{
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentH4{
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            .componentP{
+                font-family: Inter;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+
+/* @media () {
+    body{
+        background-color: #1F232E;
+    
+        font-family: Inter;
+        font-size: 18px;
+        color: white;
+    
+        display: flex;
+        flex-direction: column;
+    
+        max-width: 1520px;
+        margin: 0 auto;
+        padding: 0 32px;
+    }
+} */
 
 /* Text Colors */
 
@@ -67,6 +320,27 @@ body{
 
 /* Positions */
 
+.flex{
+    display: flex;
+}
+.row{
+    flex-direction: row;
+}
+.column{
+    flex-direction: column;
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.gap-10{
+    gap: 10px;
+}
+.text-wrap{
+    text-wrap: balance;
+}
 .text-align-center{
     text-align: center;
 }
