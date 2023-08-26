@@ -34,11 +34,8 @@ const Skills = ({ skills }) => {
 
     return (
         <div className={cssStyle.content}>
-            <div className={["componentH1", cssStyle.componentName].join(" ")}>
-                <span className="BLUE">
-                    My
-                </span>
-                Skills
+            <div className="componentH1 text-align-center">
+                <span className="BLUE">My</span> Skills
             </div>
             <div className={cssStyle.skillsContainer}>
                 {arrayOfElements.map((element, index) => (

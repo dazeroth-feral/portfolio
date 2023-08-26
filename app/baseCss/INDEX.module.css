@@ -1,8 +1,7 @@
 .content{
     /* мінімальний розмір вмісту сторінки */
     /* min-height: calc(100dvh - 160px); */
-    scroll-snap-type: y mandatory;
+	display: flex;
+	flex-direction: column;
+	gap: 150px;
 }
-    .content > div{
-        scroll-snap-align: start;
-    }

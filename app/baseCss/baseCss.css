@@ -338,6 +338,9 @@ body{
 .gap-10{
     gap: 10px;
 }
+.margin-bottom-50{
+	margin-bottom: 50px;
+}
 .text-wrap{
     text-wrap: balance;
 }

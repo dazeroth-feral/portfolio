@@ -11,7 +11,7 @@ export default function Home({ dataPack }) {
                 <TextBlock personalInformation={dataPack.personalInformation} />
                 <ButtonBlock socialNetworkLinks={dataPack.socialNetworkLinks} />
             </div>
-            <BackgroundBlock />
+			<BackgroundBlock />
         </div>
     );
 };
