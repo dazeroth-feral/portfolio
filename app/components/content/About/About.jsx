@@ -6,7 +6,7 @@ import ButtonBlock from "./ButtonBlock/ButtonBlock";
 
 const About = ({ dataPack }) => {
     return (
-        <div className={cssStyle.content}>
+        <div id="about" className={cssStyle.content}>
             <BackgroundBlock />
             <div className={cssStyle.rigthPositionBlock}>
                 <TextBlock middleDescription={dataPack.personalInformation.middleDescription} />

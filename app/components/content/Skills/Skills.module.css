@@ -13,7 +13,8 @@
         /* положення не повних контейнерів по відношенню до повних */
         align-items: flex-end;
         flex-wrap: wrap;
-    }
+		gap: 1rem;
+	}
         .blockContainer{
             display: flex;
             flex-direction: column;

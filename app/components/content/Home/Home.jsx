@@ -6,7 +6,7 @@ import BackgroundBlock from "./BackgroundBlock/BackgroundBlock";
 
 export default function Home({ dataPack }) {
     return (
-        <div className={cssStyle.content}>
+        <div id="home" className={cssStyle.content}>
             <div className={cssStyle.leftPositionBlock}>
                 <TextBlock personalInformation={dataPack.personalInformation} />
                 <ButtonBlock socialNetworkLinks={dataPack.socialNetworkLinks} />

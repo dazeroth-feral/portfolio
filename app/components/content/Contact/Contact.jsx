@@ -10,7 +10,7 @@ const Contact = ({  }) => {
     const [inputValue, setInputValue] = useState("");
 
     return(
-        <div className={cssStyle.content}>
+        <div id="contact" className={cssStyle.content}>
             <img src="/img/contactBackground.svg" alt="background" />
             <div className={cssStyle.formContainer}>
                 <div className={cssStyle.inputContainer}>

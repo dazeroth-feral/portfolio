@@ -4,7 +4,7 @@ import PortfolioPlate from "../../UI/PortfolioPlate/PortfolioPlate";
 
 const Portfolio = ({ portfolioList }) => {
     return (
-        <div className={cssStyle.content}>
+        <div id="portfolio" className={cssStyle.content}>
             <div className="componentH1 text-align-center">
                 <span className="BLUE">My</span> Portfolio
             </div>
